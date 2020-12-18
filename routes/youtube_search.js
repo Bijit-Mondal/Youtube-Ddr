@@ -4,7 +4,7 @@ const request = require('request');
 
 var router = express.Router();
 /* TODO: Generate API KEY from https://console.developers.google.com  */
-const YOUTUBE_API_KEY = 'AIzaSyAxKWIRIU6eF2JdsK1Xu25I8XtrYuIPV7w';
+const YOUTUBE_API_KEY = 'AIzaSyAlZ4A0SFH2HHGDdg6xDz5la4ouv98Lr4E';
 
 /* GET video listing. */
 router.get('/:query', function(req, res, next) {
